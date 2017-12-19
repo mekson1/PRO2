@@ -1,7 +1,7 @@
 #include<iostream>	//  knjiznice
 #include<fstream>	//	ofstream = pisanje v datoteko; ifstream = branje iz datoteke; fstream = oboje 
 #include<string>	// delo z nizi
-#include<stdlib.h> 
+#include<stdlib.h> 	// delo z sistemskimi funkcijami
 using namespace std;
 
 class kljuc
