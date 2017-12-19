@@ -62,7 +62,7 @@ void upravljanje::vnos()		// metoda za vnos
             int i = 1;
             string novi_vnos = line;           
            	
-            while(i < line.size()) 
+            while((unsigned)i < line.size()) 
             {
                 pos = line.find(presl, od);		//shranimo indeks, kjer najdemo presledek
                 if(i == 2)		//iscemo drugi presledek
